@@ -20,7 +20,7 @@ body {
     font-size: 60px;
 }
 .telegran-link__link {
-    background-image: url("../img/Telegram.png");
+    background-image: url("https://github.com/demo-it-symphony/landing/blob/master/3/img/Telegram.png");
     position: flex;
     display: inline-block;
     width: 60px !important;
@@ -40,7 +40,7 @@ body {
 
 
 .viber-link__link {
-    background-image: url("../img/viber.png");
+    background-image: url("https://github.com/demo-it-symphony/landing/blob/master/3/img/viber.png");
     background-repeat: no-repeat;
     background-position: center;
     position: flex;
