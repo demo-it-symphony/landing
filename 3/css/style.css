@@ -1,0 +1,365 @@
+.company-logo-container {
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: #484747;
+}
+
+.company-logo {
+    display: flex;
+    width: 80px;
+    height: 26.67px;
+    background-image: url("../img/unet_logo.png") !important;
+    background-color: #484747;
+    background-repeat: no-repeat;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+
+.company-title {
+    display: block;
+    float: right;
+    white-space: nowrap;
+}
+
+.chat {
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+    margin: auto;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+}
+
+.message__content {
+    white-space: pre-wrap;
+    width: 80%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    overflow-wrap: break-word;
+}
+
+
+.message__content .message__created-date {
+    color: #fff;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.message__answer .avatar-container {
+    width: 15%;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+
+.message__answer .message__avatar {
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.message__answer .message-avatar {
+    width: 26px;
+    height: 32px;
+    border: 1px solid;
+}
+
+.message__answer .message__content {
+    background-color: #eceff1;
+    margin-right: 5px;
+}
+
+.message__answer .message__content .message__created-date {
+    color: #fff !important;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.message__question .avatar-container {
+    float: right;
+    width: 15%;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid;
+}
+
+
+
+.message__question .message-avatar {
+    float: right;
+    margin-right: 5px;
+    width: 26px;
+    height: 32px;
+    border: 1px solid;
+}
+
+.client_message {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.client_message .message__content {
+    background: #DF1714;
+    color: #fff;
+    border-radius: 10px 10px 0px 10px;
+    border: 0px;
+}
+
+.client_message .message__content div div a {
+    color: white;
+    text-decoration: underline white;
+}
+
+.operator_message .message__content {
+    background: #FFFFFF;
+    border-radius: 0px 10px 10px 10px;
+    border: 0px;
+    margin-left: 45px !important;
+}
+
+.operator_message .message__content .message__created-date {
+    color: black !important;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+
+.operator_message {
+    background-image: url("../img/unet\ bot.png");
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+.message__question .message__content {
+    background-color: #fff;
+}
+
+.chat .chat__content {
+    position: relative;
+    height: 100%;
+}
+
+.chat .chat__content .chat__body {
+    position: absolute;
+    top: 60px !important;
+    width: 100%;
+    overflow: auto;
+}
+
+.chat__footer {
+    display: block;
+    align-items: center;
+}
+
+.chat-input-contairner {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    bottom: 10px !important;
+    background-color: #fff;
+}
+
+.chat .chat__content {
+    position: relative;
+    height: inherit;
+}
+
+.chat .chat__content .chat__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #559ded;
+    padding: 0, 0, 0, 20px;
+}
+
+.chat .chat__content .chat__header-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat .chat__content .chat__header-content .chat__title {
+    padding: 10px;
+}
+
+.chat .chat__content .chat__header-content .chat__avatar {
+    margin-right: 4px;
+}
+
+.chat .chat__content .chat__footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+}
+
+.chat .chat__loader {
+    width: 30px;
+    height: 30px;
+    color: #4b3252;
+    margin-left: 50%;
+}
+
+.send-button-icon {
+    background: url('../img/send.png');
+    width: 24px;
+    height: 24px;
+    margin-right: 17px;
+    margin-bottom: 20px;
+}
+
+.chat .chat__content-footer--link {
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    margin-top: 1rem;
+    display: none;
+}
+
+.input-container {
+    height: 60px;
+    display: block;
+    background: #fff;
+    margin-right: 0px !important;
+}
+
+.company-title::after {
+    padding: 20px;
+    content: "Задайте Ваш вопрос";
+    text-indent: 0;
+    display: block;
+    margin: auto;
+    line-height: initial;
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.chat__header {
+    background-color: #0d2e4e;
+}
+
+.message__answer .avatar-container {
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.message__answer .message-avatar {
+    border: 1px;
+    background: url(../img/standart_avatar.png) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: auto;
+    margin-right: 0px;
+}
+
+.message__question .avatar-container {
+    border: 0px;
+    width: 0px;
+}
+
+.message__question .message-avatar {
+    border: 0px;
+    width: 0px;
+}
+
+.message__content {
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.message__image {
+    max-width: 100%;
+    min-height: 5rem;
+    max-height: 15rem;
+}
+
+.message__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 7px !important;
+    color: red !important;
+    background-color: white !important;
+    box-shadow: 0px 4px 16px rgba(137, 150, 155, 0.2) !important;
+    border-radius: 20px !important;
+    border: 0px !important;
+    padding: 7px !important;
+}
+
+.chat__content .chat__body {
+    background-color: #E5E5E5 !important;
+    top: 60px !important;
+}
+
+.chat__footer {
+    background-color: #fff;
+}
+
+.answer-message-body .answer-message-body__button {
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 100%;
+    color: #fff;
+    background-color: #22ac14;
+    text-transform: none;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.answer-message-body .answer-message-body__button :hover {
+    background-color: #1c9110;
+}
+
+.answer-message-body .answer-message-body__button .MuiButton-label :hover {
+    background-color: #1c9110;
+}
+
+.MuiButton-root:hover {
+    background-color: #1c9110;
+}
+
+.input-container__fetch-file {
+    position: relative;
+    margin-top: 5px !important;
+    display: inline-block;
+}
+
+.choose-file-dialog__attach-image img {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0px;
+    background-image: url(../../../widget/static/media/attach.0fbd43fc.svg);
+}
+.client_message .message__content div div a {
+    color: white !important;
+    text-decoration: underline white !important;
+}
+
+.client_message .message__content a {
+    color: white !important;
+    text-decoration: underline white !important;
+}
