@@ -348,12 +348,6 @@
     display: inline-block;
 }
 
-.choose-file-dialog__attach-image img {
-    width: 1rem;
-    height: 1rem;
-    border-width: 0px;
-    background-image: url(../../../widget/static/media/attach.0fbd43fc.svg);
-}
 .client_message .message__content div div a {
     color: white !important;
     text-decoration: underline white !important;
