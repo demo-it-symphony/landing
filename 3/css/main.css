@@ -38,7 +38,7 @@ body {
     display: inline-block;
     width: 60px !important;
     height: 60px !important;
-    background-size: 60px 60px;
+    background-size: 65px 65px;
     z-index: 10000;
 }
 
