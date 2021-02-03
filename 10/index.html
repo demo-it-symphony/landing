@@ -2,26 +2,142 @@
 <head>
     <link rel="icon" href="https://it-symphony.com/img/logo4.png"> 
     <meta charset="utf-8" />
-    <title>Welcome to the Demo site</title>
+    <title>Dev environment</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <h1 class="header">
-        Welcome to Demo Site
+       Dev environment
     </h1>
     <div class="messangers-link">
         <a class="telegran-link__link" target="_blank" href="https://t.me/ITSDemoshow_bot"></a>
         <a class="viber-link__link" href="viber://pa?chatURI=itsdemoshow"></a>
         <a class="vk-link__link" target="_blank" href="https://vk.com/im?sel=-201597551"></a>
     </div>
-    <script>
-   (function (w, d, s, o, f, js, fjs) {
-       w["Chat-Widget"] = o; w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
-       js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
-       js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-       }(window, document, "script", "mw", "https://dev.it-symphony.com/chat/widgetloader/widget-loader.js"));
+  
 
-   mw("https://dev.it-symphony.com/chat/widget/?token=sdrgdfvdrt345345&css=https://demo-it-symphony.github.io/landing/3/css/style.css", "https://dev.it-symphony.com/chat/widgetloader/Unet/css/button.css");
+<style>
+
+@media all and (-ms-high-contrast:none), screen and (-ms-high-contrast:active){
+.beesender-widget-button-pulse-image {
+   margin-bottom: 20px;
+}
+}
+
+ #beesenderchat-container div.beesenderchat-team-profile-compact-team-name
+{
+    width: 70%!important;
+	color: white !important;
+	content: "fhsjfhsd" !important;
+}
+
+#beesenderchat-sendbox-textarea {
+   
+    background: black;
+}
+
+
+.beesenderchat-footer-description-image {
+    width: 0px;
+}
+
+
+
+
+
+#beesenderchat-main-feed {
+    background-color: #fff!important;
+}
+
+
+
+.beesenderchat-notification-message-phrase {
+
+color: #000000 !important;
+
+}
+
+.beesenderchat-comment {
+
+color: #000000 !important;
+
+
+}
+
+
+.beesender-widget-button-pulse-image {
+
+    bottom: 2px !important;
+    width:150px !important;
+ 
+}
+.beesenderchat-team-profile-compact-team-name {
+    color: #000000 !important; 
+    font-size: 16px !important;
+
+}
+div .beesender-widget-button-block {
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#beesenderchat-container .beesenderchat-conversation-body-profile {
+    background:  #fc8903 !important;
+}
+
+.beesenderchat-footer-description-image {
+    display: none !important;
+}
+
+.beesenderchat-notification-message-phrase {
+
+color: #006400 !important;
+}
+
+#beesenderchat-container .beesenderchat-conversation-body-parts {
+border-radius: 0px !important;
+}
+
+#beesenderchat-container .beesenderchat-composer-buttons .beesenderchat-composer-send-button {
+display: inline-block !important;
+background-image: url(https://i.ibb.co/Vp384B8/Send-Button.png) !important; /*указать свой путь к картинке*/
+background-size: 30px 30px !important;
+left: 240px !important;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://widget.beesender.com/prod/widget.css">
+<div id="beesender-chat"></div>
+<script> 
+    window.beesenderchatconfig = {};
+    window.beesenderchatconfig.channelId = '77712afc-5a33-4c0a-90d5-28dd21f5f938';
+    window.beesenderchatconfig.connectorUrl = 'https://balance.beesender.com';
+    window.beesenderchatconfig.title = "Задать вопрос Новосибирскэнергосбыт";
+    window.beesenderchatconfig.disableInputOnButtonMessages=false;
+    window.beesenderchatconfig.startButtonSvg = "https://i.ibb.co/DD907x1/photo-2020-02-04-18-27-26.jpg"; /*указать свой путь к картинке*/
+    window.beesenderchatconfig.headerImageSrc = "https://i.ibb.co/wgDKQp6/1.png";   /*указать свой путь к картинке*/                  
+    window.beesenderchatconfig.operatorAvatar = "https://i.ibb.co/wgDKQp6/1.png";   /*указать свой путь к картинке*/              
+    window.beesenderchatconfig.menuButtonIcon = 'https://pictures.beesender.com/0/More.png';  /*указать свой путь к картинке*/
+    window.beesenderchatconfig.footerTitleName =  "IT-Symphony";
+    window.beesenderchatconfig.showChannelPanel = false;
+    window.beesenderchatconfig.channelsInPanel = 
+[
+{ type : "telegram", name : "Telegram", link : "http://t.me/Kilowattik_bot" },
+{ type : "whatsapp", name : "WhatsApp", link : "https://api.whatsapp.com/send?phone=73832739898" },
+{ type : "widget", name : "Продолжить на сайте" } ];
+</script>
+<script src="https://widget.beesender.com/prod/widget.js" async></script>
+<script src="https://widget.beesender.com/prod/chunk-vendors.js" async></script>
+<script>
+window.onload = () => {
+let d = document.getElementsByClassName('beesenderchat-footer-description')[0];
+	d.innerHTML = '<a href="https://it-symphony.com/" target=_blank>ItSymphony</a>';
+}
 </script>
 </body>
 </html>
