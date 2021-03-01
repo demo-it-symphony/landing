@@ -43,7 +43,7 @@ body {
 }
 
 .fb-link__link {
-    background-image: url("../img/vkontakte.png");
+    background-image: url("../img/facebook.png");
     position: flex;
     display: inline-block;
     width: 60px !important;
