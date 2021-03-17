@@ -14,10 +14,10 @@
         <a class="viber-link__link" href="viber://pa?chatURI=itsdemoshow"></a>
         <a class="vk-link__link" target="_blank" href="https://vk.com/im?sel=-201597551"></a>
         <a class="fb-link__link" target="_blank" href="https://www.facebook.com/ITSymphony/"></a>
-        <div class="wechat-link__link""></div>
+        <div class="wechat-link__link"></div>
     </div>
     <div> 
-        <img src="https://github.com/demo-it-symphony/landing/blob/master/7/img/wechat_qr.jpg?raw=true" alt="WeChatQR">
+        <img class="wechat_img" src="https://github.com/demo-it-symphony/landing/blob/master/7/img/wechat_qr.jpg?raw=true" alt="WeChatQR">
     </div>
     <script>
    (function (w, d, s, o, f, js, fjs) {
@@ -27,6 +27,28 @@
        }(window, document, "script", "mw", "https://dev.it-symphony.com/chat/widgetloader/widget-loader.js"));
 
    mw("https://dev.it-symphony.com/chat/widget/?token=widgetChannelForMeestChina&css=https://demo-it-symphony.github.io/landing/7/css/style.css", "https://dev.it-symphony.com/chat/widgetloader/Unet/css/button.css");
+</script>
+
+<script>
+    $(document).ready(function() {
+
+        $(".wechat-link__link").click(function(){
+            var img = $(".wechat_img");
+            var src = img.attr('src');
+            $("body").append("<div class='popup'>"+
+                "<div class='popup_bg'></div>"+
+                "<img src='"+src+"' class='popup_img' />"+
+                "</div>");
+            $(".popup").fadeIn(800);
+            $(".popup_bg").click(function(){
+                $(".popup").fadeOut(800);
+                setTimeout(function() {
+                    $(".popup").remove();
+                }, 800);
+            });
+        });
+
+    });
 </script>
 </body>
 </html>
