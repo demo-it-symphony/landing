@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Welcome to the Demo site</title>
     <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
     <h1 class="header">
@@ -15,9 +16,6 @@
         <a class="vk-link__link" target="_blank" href="https://vk.com/im?sel=-201597551"></a>
         <a class="fb-link__link" target="_blank" href="https://www.facebook.com/ITSymphony/"></a>
         <div class="wechat-link__link"></div>
-    </div>
-    <div> 
-        <img class="wechat_img" src="https://github.com/demo-it-symphony/landing/blob/master/7/img/wechat_qr.jpg?raw=true" alt="WeChatQR">
     </div>
     <script>
    (function (w, d, s, o, f, js, fjs) {
@@ -33,22 +31,20 @@
 
 <script>
     $(document).ready(function() {
-
-        $(".wechat-link__link").click(function(){
-            var img = $(".wechat_img");
-            var src = img.attr('src');
-            $("body").append("<div class='popup'>"+
-                "<div class='popup_bg'></div>"+
-                "<img src='"+src+"' class='popup_img' />"+
-                "</div>");
-            $(".popup").fadeIn(800);
-            $(".popup_bg").click(function(){
-                $(".popup").fadeOut(800);
-                setTimeout(function() {
-                    $(".popup").remove();
-                }, 800);
-            });
-        });
-
-    });
+	
+	$(".wechat-link__link").click(function(){	 
+		$("body").append("<div class='popup'>"+ 
+						 "<div class='popup_bg'></div>"+ 
+						 "<img src='"+"https://github.com/demo-it-symphony/landing/blob/master/7/img/wechat_qr.jpg?raw=true"+"' class='popup_img' />"+ 
+						 "</div>"); 
+		$(".popup").fadeIn(800);
+		$(".popup_bg").click(function(){  
+			$(".popup").fadeOut(800);
+			setTimeout(function() {	
+			  $(".popup").remove(); 
+			}, 800);
+		});
+	});
+	
+});
 </script>
