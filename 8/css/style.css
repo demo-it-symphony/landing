@@ -8,6 +8,9 @@
 
 .company-logo {
     background: url(../img/black_logo.svg) !important;
+    background-repeat: no-repeat !important;
+    min-width: 170px;
+    top: 12px;
     display: flex;
     width: 80px;
     background-color: #484747;
