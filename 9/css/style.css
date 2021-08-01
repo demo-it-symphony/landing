@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    background-color: #484747;
+    background: linear-gradient(to bottom, #c8e5f3, #0400fd);
 }
 
 .company-logo {
