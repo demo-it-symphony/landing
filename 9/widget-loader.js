@@ -166,7 +166,7 @@ app(window);
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"chat-widget__container\">\r\n    <a id=\"chat-widget__button--expand\" class=\"chat-widget__button chat-widget__button--expand\">\r\n        <i class=\"chat-widget__button-icon chat-widget__button--expand-icon\">Задать вопрос</i>\r\n    </a>\r\n    <div id=\"chat-widget__content\" class=\"chat-widget__content\" style=\"display: none;\">\r\n        <a class=\"chat-widget__button chat-widget__button--close\">\r\n            <i class=\"chat-widget__button--close-icon\">+</i>\r\n        </a>\r\n        <iframe></iframe>\r\n    </div>\r\n</div>\r\n";
+module.exports = "<div class=\"chat-widget__container\">\r\n    <a id=\"chat-widget__button--expand\" class=\"chat-widget__button chat-widget__button--expand\">\r\n        <i class=\"chat-widget__button-icon chat-widget__button--expand-icon\">Ask your question</i>\r\n    </a>\r\n    <div id=\"chat-widget__content\" class=\"chat-widget__content\" style=\"display: none;\">\r\n        <a class=\"chat-widget__button chat-widget__button--close\">\r\n            <i class=\"chat-widget__button--close-icon\">+</i>\r\n        </a>\r\n        <iframe></iframe>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
 /* 2 */
