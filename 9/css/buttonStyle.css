@@ -1,0 +1,69 @@
+body .chat-widget__container .chat-widget__button {
+    position: absolute;
+    width: 243px !important;
+    height: 60px !important;
+    bottom: 20px;
+    background-color: #DF1714 !important;
+    box-shadow: 0px 4px 12px rgba(223, 23, 20, 0.2) !important;
+    border-radius: 30px !important;
+}
+
+.chat-widget__container .chat-widget__button:hover {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.chat-widget__container .chat-widget__button-icon {
+    display: inline-block;
+    background-image: url("../img/_.png"), url("../img/Union.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position-x: 25px, 17px;
+    background-position-y: 18.5px, 16px;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    margin-left: 19px;
+    margin-top: 2px;
+} 
+
+body .chat-widget__container .chat-widget__button--close {
+    background-color: red !important;
+    position: fixed;
+    display: inline-block;
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 0;
+}
+
+.chat-widget__container .chat-widget__button--close-icon {
+    background-image: url(../img/close.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+    top: 11px;
+    bottom: 0px;
+    left: 1px;
+    right: 0px;
+    position: absolute;
+}
+
+@media(max-width: 475px) {
+    .chat-widget__container .chat-widget__button-icon.chat-widget__button--expand-icon {
+        background-position-x: 21px, 13px;
+        background-position-y: 14px, 10px;
+        margin-left: 0px;
+        font-size: 0px !important;
+    }
+
+    .chat-widget__container .chat-widget__button.chat-widget__button--expand {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
