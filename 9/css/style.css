@@ -113,8 +113,8 @@
 }
 
 .client_message .message__content {
-    background: #DF1714;
-    color: #fff;
+    background: #ffffff;
+    color: #000;
     border-radius: 10px 10px 0px 10px;
     border: 0px;
 }
