@@ -4,7 +4,8 @@ html {
     background-image: url("../img/summer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    wigth: 100%;
     background-color: gray;
 }
 
