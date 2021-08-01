@@ -140,6 +140,7 @@
 
 .operator_message {
     background-image: url("../img/black_logo.png");
+    background-size: 40px;
     background-repeat: no-repeat;
     background-position-y: 5px;
     justify-content: flex-start;
