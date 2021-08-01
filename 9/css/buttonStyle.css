@@ -3,7 +3,7 @@ body .chat-widget__container .chat-widget__button {
     width: 243px !important;
     height: 60px !important;
     bottom: 20px;
-    background-color: #DF1714 !important;
+    background: linear-gradient(to bottom, #c8e5f3, #0400fd); !important;
     box-shadow: 0px 4px 12px rgba(223, 23, 20, 0.2) !important;
     border-radius: 30px !important;
 }
