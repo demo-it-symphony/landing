@@ -15,7 +15,7 @@ body .chat-widget__container .chat-widget__button {
 
 .chat-widget__container .chat-widget__button-icon {
     display: inline-block;
-    background-image: url("../img/_.png"), url("../img/Union.png");
+    background-image: url("https://dev.it-symphony.com/chat/widgetloader/Unet/img/_.png"), url("../img/Union.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position-x: 25px, 17px;
     background-position-y: 18.5px, 16px;
