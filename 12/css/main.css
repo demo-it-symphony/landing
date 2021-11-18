@@ -1,0 +1,30 @@
+﻿
+
+html {
+    background-image: url("../img/21vek.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: gray;
+}
+
+body {
+    color: white;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    margin-right: 10%;
+    top: 15%;
+    position: relative;
+    font-size: 3rem;
+}
+
+.messangers-link {
+    position: absolute;
+    bottom: 20;
+    left: 20;
+}
+
