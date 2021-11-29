@@ -1,0 +1,40 @@
+body .chat-widget__container .chat-widget__button {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    right: 184px;
+    bottom: 60px;
+    width: 80px;
+    height: 80px;
+}
+
+
+.chat-widget__container .chat-widget__button-icon {
+    background-image: url("../img/open.png");
+    background-repeat: no-repeat;
+    font-size: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+body .chat-widget__container .chat-widget__button--close {
+    background-color: transparent !important;
+    width: 30px !important;
+    height: 30px !important;
+    right: 10px !important;
+    line-height: 0;
+}
+
+.chat-widget__container .chat-widget__button--close {
+    top: 5px;
+}
+
+.chat-widget__container .chat-widget__button--close-icon {
+    background-image: url(../img/close.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+    top: 11px;
+    bottom: 0px;
+    left: 1px;
+    right: 0px;
+    position: absolute;
+}
