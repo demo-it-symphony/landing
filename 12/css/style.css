@@ -109,3 +109,13 @@
     width: 1.4rem;
     margin-bottom: 13px;
 }
+
+.message_avatar {
+    background-size: 40px 40px !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: 5px !important;
+    margin-left: 15px !important;
+    border-radius: 50% !important;
+    left: 0px !important;
+}
