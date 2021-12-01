@@ -1,16 +1,12 @@
-.chat .chat__content-footer--link {
-    margin-top: 3.6rem !important;
-}
-
 .chat .chat__content .chat__body {
     top: 52px;
 }
 
 .chat .chat__content-footer--link {
-    margin-right: auto;
+    margin-right: -20px;
     margin-left: auto;
     display: table;
-    margin-top: 0.7rem
+    margin-top: 3.6rem
 }
 
 .company-logo-container {
