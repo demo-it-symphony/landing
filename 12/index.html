@@ -113,12 +113,21 @@ left: 240px !important;
         js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
         }(window, document, "script", "mw", "https://dev.it-symphony.com/chat/widgetloader/widget-loader.js"));
  
+	
+    const popupMode = "auto";
+    const startMode = "auto";
+    const startMessageWithoutBot = "Задайте Ваш вопрос";
+
+	
     mw("https://dev.it-symphony.com/chat/widget/?token=wlkesjdbhgkrlendc&css=https://demo-it-symphony.github.io/landing/12/css/style.css", 
        "https://demo-it-symphony.github.io/landing/12/css/button.css",
        "*New message*",
        document.getElementById('user-token') ? document.getElementById('user-token').value : null,
        'Writer',
-       'https://www.it-symphony.com/');
+       'https://www.it-symphony.com/',
+        popupMode,
+        startMode,
+        startMessageWithoutBot);
  </script>
 </body>
 </html>
