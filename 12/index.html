@@ -1,5 +1,6 @@
 ﻿<html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://it-symphony.com/img/logo4.png"> 
     <meta charset="utf-8" />
     <title>Test environment</title>
@@ -117,7 +118,9 @@ left: 240px !important;
     const popupMode = "auto";
     const startMode = "auto";
     const startMessageWithoutBot = "Задайте Ваш вопрос";
-
+    const withoutLocation = "true";
+    const separeteOperatorNameAndTimeSent = "true";
+    const changeSendButtonIcon = "true";
 	
     mw("https://dev.it-symphony.com/chat/widget/?token=wlkesjdbhgkrlendc&css=https://demo-it-symphony.github.io/landing/12/css/style.css", 
        "https://demo-it-symphony.github.io/landing/12/css/button.css",
@@ -127,7 +130,10 @@ left: 240px !important;
        'https://www.it-symphony.com/',
         popupMode,
         startMode,
-        startMessageWithoutBot);
+        startMessageWithoutBot,
+        withoutLocation,
+        separeteOperatorNameAndTimeSent,
+        changeSendButtonIcon);
  </script>
 </body>
 </html>
