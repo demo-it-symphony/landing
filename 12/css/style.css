@@ -31,6 +31,11 @@
     margin-top: 13px;
 }
 
+.wmde-markdown {
+    font-size: 14px;
+    font-family: Arial;
+}
+
 .client_message {
     margin-top: 40px;
 }
@@ -76,11 +81,21 @@
 
 .message__button {
     border: #E62E6B 1px solid;
-    border-radius: 12px;
+    border-radius: 20px;
     margin: 7px !important;
     color: #E62E6B !important;
     background-color: white !important;
-    padding: 5px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.message__button:hover {
+    border: #E62E6B 1px solid;
+    border-radius: 20px;
+    margin: 7px !important;
+    padding: 10px;
+    background-color: #E62E6B !important;
+    color: white !important;
 }
 
 .message__content .message__created-date {
@@ -106,6 +121,12 @@
     width: 24px;
 }
 
+.choose-file-dialog__attach-image:hover {
+    content: url("../img/Attach_hover.svg");
+    height: 24px;
+    width: 24px;
+}
+
 .send-button-icon {
     background: url("../img/send.svg");
     background-repeat: no-repeat;
@@ -119,7 +140,7 @@
 }
 
 .send-button {
-    bottom: -5px;
+    bottom: -9px;
     margin-left: 30px !important;
 }
 
@@ -127,14 +148,21 @@
     content: url("../img/voice.svg");
     width: 24px;
     height: 24px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
+}
+
+.mic-button:hover {
+    content: url("../img/voice_record.svg");
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
 }
 
 .mic-button-recording {
     content: url("../img/voice_record.svg");
     width: 24px;
     height: 24px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 
 .message_avatar {
@@ -159,9 +187,10 @@
 
 .operator_message_info {
     position: absolute;
-    margin-left: -17px;
+    margin-left: -62px;
     margin-top: -45px;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: Arial;
     color: #909598;
 }
 
@@ -174,7 +203,29 @@
 }
 
 .input-container {
-    height: 55px;
+    height: 45px;
+}
+
+.input-container__fetch-file {
+    margin-top: 0.3rem;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 1px solid #DDDFE0; 
+}
+
+.MuiInput-underline:before {
+    border-bottom: 1px solid #DDDFE0; 
+}
+
+.MuiInput-underline:after {
+    border-bottom: 1px solid #DDDFE0;
+}
+
+@media(max-width: 476px) {
+    .chat .chat__content {
+        border-radius: 0px 0px 0px 0px;
+    }
 }
 
 @media(min-width: 476px){
