@@ -54,7 +54,7 @@ body .chat-widget__container .chat-widget__button--close {
     .chat-widget__container .chat-widget__content iframe {
         position: fixed;
         width: -webkit-fill-available;
-        height: 70%;
+        height: 90%;
         top: 70px;
         margin-left: 32px;
         margin-right: 32px;
