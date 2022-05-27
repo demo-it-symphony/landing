@@ -1,0 +1,108 @@
+.main {
+  width: 725px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 235px;
+}
+.main__title {
+  padding-bottom: 10px;
+
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 69px;
+  line-height: 81px;
+  color: #ffd233;
+}
+.main__text {
+  padding-bottom: 20px;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.main__button-selector {
+  padding-bottom: 40px;
+}
+.main__button-language-england {
+  position: relative;
+  width: 113px;
+  height: 40px;
+
+  background: #f3f5f7;
+  background-color: #ffd233;
+  border-radius: 26px 0px 0px 26px;
+
+  cursor: pointer;
+}
+.main__button-language-england:before {
+  content: url("../image/🇬🇧.png");
+  position: absolute;
+  top: 6px;
+  left: 47px;
+}
+.main__button-language-korea {
+  position: relative;
+  width: 113px;
+  height: 40px;
+
+  margin-left: -5px;
+  background: #f3f5f7;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 0px 26px 26px 0px;
+
+  cursor: pointer;
+}
+.main__button-language-korea:before {
+  content: url("../image/🇰🇷.png");
+  position: absolute;
+  top: 6px;
+  left: 41px;
+}
+
+.main__button-start {
+  width: 150px;
+  height: 40px;
+
+  background: #ffffff;
+  border-radius: 26px;
+  border: none;
+
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #6676aa;
+
+  cursor: pointer;
+}
+.chat {
+  position: relative;
+}
+.chat__button {
+  position: absolute;
+  bottom: 165px;
+  right: 205px;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+.chat::after {
+  content: url("../image/monsters-standing-right.png");
+  position: absolute;
+  right: -60px;
+  bottom: 60px;
+}
+.chat::before {
+  content: url("../image/monsters-standing-left.png");
+  position: absolute;
+  left: -60px;
+  bottom: 45px;
+}
