@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="fonts/font.css" />
+    <title>Monsters language</title>
+  </head>
+  <script>
+    (function (w, d, s, o, f, js, fjs) {
+      w["Chat-Widget"] = o;
+      w[o] =
+        w[o] ||
+        function () {
+          (w[o].q = w[o].q || []).push(arguments);
+        };
+      (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+      js.id = o;
+      js.src = f;
+      js.async = 1;
+      fjs.parentNode.insertBefore(js, fjs);
+    })(
+      window,
+      document,
+      "script",
+      "mw",
+      "https://hr-1.dit-okc.ru/chat/widgetloader/widget-loader.js"
+    );
+
+    var config = {
+      urlToWidget:
+        "https://hr-1.dit-okc.ru/chat/widget2/?token=russpass_widget", // URL to widget with token
+      urlToCss: "https://hr-1.dit-okc.ru/chat/widgetloader/VDNH/css/style.css", // URL to widget style css
+      urlToButtonCss:
+        "https://hr-1.dit-okc.ru/chat/widgetloader/VDNH/css/button.css", // URL to button style
+      newMessageText: "*New message*", // Bliking message on a tab in a browser
+      userToken: document.getElementById("user-token")
+        ? document.getElementById("user-token").value
+        : null, // User access token
+      linkName: "Writer", // Title link at the bottom of widget
+      urlLink: "https://www.it-symphony.com/", // Link at the botton of widget
+      popupMode: "auto", // Widget opening mode
+      startMode: "auto", // Chat start mode
+      startMessageWithoutBot: "Hello!", // Start message without bot in the widget channel
+      withoutLocation: false, // User opportunity to send his location
+      separeteOperatorNameAndTimeSent: true, // Mode to split timesent message and operator name
+      changeSendButtonIcon: false, // Changing the button icon for sending a message
+      hideClientStartMessage: true, // Hide /start message for client
+      withoutAttach: true, // User opportunity to share his files and location
+      autoSendSpeechRecognizier: true, // Auto sent a message printed using Speech Recognizier
+    };
+
+    mw(config);
+  </script>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!-- Header -->
+        <header class="header">
+          <div class="header__logo">
+            <img src="image/monsters-head.png" class="header__img" alt="" />
+            <h1 class="header__title">Monsters language</h1>
+          </div>
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="#">Определить уровень</a></li>
+            <li class="header__nav-item"><a href="#">Тарифы</a></li>
+            <li class="header__nav-item"><a href="#">Вход</a></li>
+          </ul>
+        </header>
+
+        <!-- Main -->
+        <div class="main__container">
+          <main class="main">
+            <h2 class="main__title">Войти или зарегистрироваться</h2>
+            <ul class="main__icon-list">
+              <li class="main__icon-item">
+                <a href="#">
+                  <img src="image/icon-vk.png" alt="VK" class="main__img" />
+                </a>
+              </li>
+              <li class="main__icon-item">
+                <a href="#">
+                  <img
+                    src="image/icon-facebook.png"
+                    alt="Facebook"
+                    class="main__img"
+                  />
+                </a>
+              </li>
+
+              <li class="main__icon-item">
+                <a href="#">
+                  <img
+                    src="image/icon-google.png"
+                    alt="Google"
+                    class="main__img"
+                  />
+                </a>
+              </li>
+            </ul>
+            <p class="main__text">или</p>
+            <form class="main__form" action="">
+              <input
+                type="search"
+                placeholder="Через email или телефон"
+                class="main__input"
+              />
+              <button class="main__button">Продолжить</button>
+            </form>
+          </main>
+          <img
+            class="img-monsters-standing"
+            src="image/monsters-standing.png"
+            alt="#"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
