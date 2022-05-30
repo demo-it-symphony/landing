@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 .main__button-language-england:before {
-  content: url("../image/gb.png);
+  content: url("../image/gb.png");
   position: absolute;
   top: 6px;
   left: 47px;
@@ -94,6 +94,6 @@
   position: absolute;
   width: 260px;
   height: 260px;
-  left: 1420px;
-  top: 703px;
+  left: 1425px;
+  top: 675px;
 }
