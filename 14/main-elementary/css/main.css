@@ -92,17 +92,3 @@
   left: 98px;
   top: 703px;
 }
-
-.chat {
-  position: relative;
-}
-.chat__button {
-  position: absolute;
-  bottom: 165px;
-  right: 205px;
-
-  background: none;
-  border: none;
-
-  cursor: pointer;
-}
