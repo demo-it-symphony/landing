@@ -84,16 +84,12 @@
 
 .main__img-left {
   position: absolute;
-  width: 260px;
-  height: 260px;
-  left: 109px;
-  top: 693px;
+  left: 17%;
+  top: 73%;
 }
 
 .main__img-right {
   position: absolute;
-  width: 260px;
-  height: 260px;
-  left: 1425px;
-  top: 675px;
+  left: 76%;
+  top: 72%;
 }
