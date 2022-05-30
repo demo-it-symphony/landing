@@ -14,6 +14,7 @@ body {
   overflow-y: clip;
 }
 .wrapper {
+  height: 100%;
   background: #6676aa;
 }
 .container {
