@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 .main__button-language-england:before {
-/*   content: url("../image/gb.png"); */
+  content: url("../image/gb.png");
   position: absolute;
   top: 6px;
   left: 47px;
@@ -59,7 +59,7 @@
   cursor: pointer;
 }
 .main__button-language-korea:before {
-/*   content: url("../image/kr.png"); */
+  content: url("../image/kr.png");
   position: absolute;
   top: 6px;
   left: 41px;
