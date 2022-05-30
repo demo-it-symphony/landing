@@ -88,17 +88,3 @@
 .main__button-low:hover {
   cursor: pointer;
 }
-
-.chat {
-  position: relative;
-}
-.chat__button {
-  position: absolute;
-  bottom: 100px;
-  right: 205px;
-
-  background: none;
-  border: none;
-
-  cursor: pointer;
-}
