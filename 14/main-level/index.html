@@ -6,55 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="fonts/font.css" />
+    <link rel="shortcut icon" href="image/favicon.ico.png" type="image/x-ico" />
     <title>Monsters language</title>
   </head>
-  <script>
-    (function (w, d, s, o, f, js, fjs) {
-      w["Chat-Widget"] = o;
-      w[o] =
-        w[o] ||
-        function () {
-          (w[o].q = w[o].q || []).push(arguments);
-        };
-      (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
-      js.id = o;
-      js.src = f;
-      js.async = 1;
-      fjs.parentNode.insertBefore(js, fjs);
-    })(
-      window,
-      document,
-      "script",
-      "mw",
-      "https://hr-1.dit-okc.ru/chat/widgetloader/widget-loader.js"
-    );
-
-    var config = {
-      urlToWidget:
-        "https://hr-1.dit-okc.ru/chat/widget2/?token=russpass_widget", // URL to widget with token
-      urlToCss: "https://hr-1.dit-okc.ru/chat/widgetloader/VDNH/css/style.css", // URL to widget style css
-      urlToButtonCss:
-        "https://hr-1.dit-okc.ru/chat/widgetloader/VDNH/css/button.css", // URL to button style
-      newMessageText: "*New message*", // Bliking message on a tab in a browser
-      userToken: document.getElementById("user-token")
-        ? document.getElementById("user-token").value
-        : null, // User access token
-      linkName: "Writer", // Title link at the bottom of widget
-      urlLink: "https://www.it-symphony.com/", // Link at the botton of widget
-      popupMode: "auto", // Widget opening mode
-      startMode: "auto", // Chat start mode
-      startMessageWithoutBot: "Hello!", // Start message without bot in the widget channel
-      withoutLocation: false, // User opportunity to send his location
-      separeteOperatorNameAndTimeSent: true, // Mode to split timesent message and operator name
-      changeSendButtonIcon: false, // Changing the button icon for sending a message
-      hideClientStartMessage: true, // Hide /start message for client
-      withoutAttach: true, // User opportunity to share his files and location
-      autoSendSpeechRecognizier: true, // Auto sent a message printed using Speech Recognizier
-    };
-
-    mw(config);
-  </script>
   <body>
+    <script>
+      (function (w, d, s, o, f, js, fjs) {
+        w["Chat-Widget"] = o;
+        w[o] =
+          w[o] ||
+          function () {
+            (w[o].q = w[o].q || []).push(arguments);
+          };
+        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+        js.id = o;
+        js.src = f;
+        js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs);
+      })(
+        window,
+        document,
+        "script",
+        "mw",
+        "https://nlu.digital-link.ru/chat/widgetloader/widget-loader.js"
+      );
+
+      var config = {
+        urlToWidget:
+          "https://nlu.digital-link.ru/chat/widget2/?token=NavigatorWidget", // URL to widget with token
+        urlToCss:
+          "https://nlu.digital-link.ru/chat/widgetloader/VDNH/css/style.css", // URL to widget style css
+        urlToButtonCss:
+          "https://nlu.digital-link.ru/chat/widgetloader/VDNH/css/button.css", // URL to button style
+        newMessageText: "*New message*", // Bliking message on a tab in a browser
+        userToken: document.getElementById("user-token")
+          ? document.getElementById("user-token").value
+          : null, // User access token
+        linkName: "Writer", // Title link at the bottom of widget
+        urlLink: "https://www.it-symphony.com/", // Link at the botton of widget
+        popupMode: "auto", // Widget opening mode
+        startMode: "auto", // Chat start mode
+        startMessageWithoutBot: "Hello!", // Start message without bot in the widget channel
+        withoutLocation: false, // User opportunity to send his location
+        separeteOperatorNameAndTimeSent: true, // Mode to split timesent message and operator name
+        changeSendButtonIcon: false, // Changing the button icon for sending a message
+        hideClientStartMessage: true, // Hide /start message for client
+        withoutAttach: true, // User opportunity to share his files and location
+        autoSendSpeechRecognizier: true, // Auto sent a message printed using Speech Recognizier
+      };
+
+      mw(config);
+    </script>
+
     <div class="wrapper">
       <div class="container">
         <!-- Main -->
@@ -96,11 +99,6 @@
             </ul>
             <img src="image/monsters-standing.png" class="main__img" alt="" />
           </main>
-          <div class="chat">
-            <button class="chat__button">
-              <img src="./image/chat.png" alt="chat" />
-            </button>
-          </div>
         </div>
       </div>
     </div>
